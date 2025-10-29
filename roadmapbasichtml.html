@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic HTML Website</title>
+        <meta name="description" content="A simple HTML website">
+        <meta name="keywords" content="HTML, basic, simple, website">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                
+                padding: 1%;
+                font-family: cursive;
+            }
+            html, body {
+                height: 100%;
+                width: 100%;
+            }
+            aside {
+                margin-right: 3%;
+                font-size: 150%;
+                text-align: center;
+            }
+            header {
+                text-align: center;
+                font-size: 130%;
+                font-weight: bold;
+            }
+            nav {
+                margin: 3%;
+                font-size: 100%;
+            }
+            .konteynır {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            a:hover {
+                cursor: pointer;
+                color: blue;
+            }
+            footer {
+                text-align: center;
+                margin: 5%;
+            }
+            main p {
+                width: 30%;
+            }
+            li {
+                border: 1px solid black;
+                padding: 2%;
+                width: 150%;
+                height: 55px;
+                list-style: none;
+                box-shadow: 2px 2px 2px;
+            }
+            main {
+                
+                justify-content: space-evenly;
+                height: 100%;
+                width: 100%;
+            }
+            .infobox {
+                border: 1px solid black;
+                border-radius: 15px;
+                min-height: 150px;
+                width: 30%;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                font-size: 100%;
+                box-shadow: 2px 2px 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Basic HTML Website
+            </h1>
+
+            <nav>
+                <a href="roadmapbasichtmlhome.html">Home</a> |
+                <a href="Projects.html">Projects</a> |
+                <a href="Articles.html">Articles</a> |
+                <a href="Contact.html">Contact</a>
+                <hr>
+            </nav>
+        </header>
+
+        <main class="konteynır">
+
+            <aside>
+                <ul>
+                    <li>Sample Text</li>
+                    <li>Sample Text</li>
+                    <li>Sample Text</li>
+                    <li>Sample Text</li>
+                    <li>Sample Text</li>
+                </ul>
+            </aside>
+
+            <p class="ana">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis, labore repudiandae asperiores dolor
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis, labore repudiandae asperiores dolor
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis, labore repudiandae asperiores dolor Lorem ipsum
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis</p>
+
+            <p class="ana">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis, labore repudiandae asperiores dolor
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis, labore repudiandae asperiores dolor
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis, labore repudiandae asperiores dolor Lorem ipsum
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis</p>
+
+            <div class="infobox"><h3>Sample Box 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>    
+            </div>
+            <div class="infobox"><h3>Sample Box 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>     
+            </div>
+            <div class="infobox"><h3>Sample Box 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>     
+            </div>
+
+        </main>
+
+        <footer>
+            &copy; All rights reserved.
+        </footer>
+    </body>
+</html>
